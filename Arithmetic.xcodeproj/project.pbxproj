@@ -14,6 +14,7 @@
 		84BB9EEF246D174100D34B17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BB9EEE246D174100D34B17 /* Assets.xcassets */; };
 		84BB9EF2246D174100D34B17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BB9EF0246D174100D34B17 /* LaunchScreen.storyboard */; };
 		84BB9EF5246D174100D34B17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BB9EF4246D174100D34B17 /* main.m */; };
+		84BB9EFD246D17B000D34B17 /* CharReverse.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BB9EFC246D17B000D34B17 /* CharReverse.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		84BB9EF1246D174100D34B17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84BB9EF3246D174100D34B17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84BB9EF4246D174100D34B17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84BB9EFB246D17B000D34B17 /* CharReverse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CharReverse.h; sourceTree = "<group>"; };
+		84BB9EFC246D17B000D34B17 /* CharReverse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CharReverse.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				84BB9EE6246D174000D34B17 /* SceneDelegate.m */,
 				84BB9EE8246D174000D34B17 /* ViewController.h */,
 				84BB9EE9246D174000D34B17 /* ViewController.m */,
+				84BB9EFB246D17B000D34B17 /* CharReverse.h */,
+				84BB9EFC246D17B000D34B17 /* CharReverse.m */,
 				84BB9EEB246D174000D34B17 /* Main.storyboard */,
 				84BB9EEE246D174100D34B17 /* Assets.xcassets */,
 				84BB9EF0246D174100D34B17 /* LaunchScreen.storyboard */,
@@ -150,6 +155,7 @@
 				84BB9EE4246D174000D34B17 /* AppDelegate.m in Sources */,
 				84BB9EF5246D174100D34B17 /* main.m in Sources */,
 				84BB9EE7246D174000D34B17 /* SceneDelegate.m in Sources */,
+				84BB9EFD246D17B000D34B17 /* CharReverse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
