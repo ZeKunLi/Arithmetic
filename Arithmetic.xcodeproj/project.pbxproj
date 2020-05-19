@@ -15,6 +15,7 @@
 		84BB9EF2246D174100D34B17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BB9EF0246D174100D34B17 /* LaunchScreen.storyboard */; };
 		84BB9EF5246D174100D34B17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BB9EF4246D174100D34B17 /* main.m */; };
 		84BB9EFD246D17B000D34B17 /* CharReverse.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BB9EFC246D17B000D34B17 /* CharReverse.m */; };
+		84BB9F00246E3A3F00D34B17 /* ReverseList.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BB9EFF246E3A3F00D34B17 /* ReverseList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		84BB9EF4246D174100D34B17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84BB9EFB246D17B000D34B17 /* CharReverse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CharReverse.h; sourceTree = "<group>"; };
 		84BB9EFC246D17B000D34B17 /* CharReverse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CharReverse.m; sourceTree = "<group>"; };
+		84BB9EFE246E3A3F00D34B17 /* ReverseList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReverseList.h; sourceTree = "<group>"; };
+		84BB9EFF246E3A3F00D34B17 /* ReverseList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReverseList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				84BB9EE9246D174000D34B17 /* ViewController.m */,
 				84BB9EFB246D17B000D34B17 /* CharReverse.h */,
 				84BB9EFC246D17B000D34B17 /* CharReverse.m */,
+				84BB9EFE246E3A3F00D34B17 /* ReverseList.h */,
+				84BB9EFF246E3A3F00D34B17 /* ReverseList.m */,
 				84BB9EEB246D174000D34B17 /* Main.storyboard */,
 				84BB9EEE246D174100D34B17 /* Assets.xcassets */,
 				84BB9EF0246D174100D34B17 /* LaunchScreen.storyboard */,
@@ -153,6 +158,7 @@
 			files = (
 				84BB9EEA246D174000D34B17 /* ViewController.m in Sources */,
 				84BB9EE4246D174000D34B17 /* AppDelegate.m in Sources */,
+				84BB9F00246E3A3F00D34B17 /* ReverseList.m in Sources */,
 				84BB9EF5246D174100D34B17 /* main.m in Sources */,
 				84BB9EE7246D174000D34B17 /* SceneDelegate.m in Sources */,
 				84BB9EFD246D17B000D34B17 /* CharReverse.m in Sources */,

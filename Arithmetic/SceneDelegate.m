@@ -8,6 +8,7 @@
 
 #import "SceneDelegate.h"
 #import "CharReverse.h"
+#import "ReverseList.h"
 @interface SceneDelegate ()
 
 @end
@@ -20,11 +21,19 @@
     // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
     // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
     
-    // 字符串反转
-    // 定义一个字符数组
-    char ch[] = "hello,world";
-    char_reverse(ch);
-    printf("reverse result is %s \n",ch);
+//    // 字符串反转
+//    // 定义一个字符数组
+//    char ch[] = "hello,world";
+//    char_reverse(ch);
+//    printf("reverse result is %s \n",ch);
+    
+    
+    // 单链表反转
+    struct Node* head = constructList();
+    printList(head);
+    printf("---------\n");
+    struct Node* newHead = reverseList(head);
+    printList(newHead);
 }
 
 
